@@ -18,7 +18,7 @@ export default function Intro() {
     <div className='intro'>
       <div className="i-left">
         <div className="i-name">
-            <span >Hy! I Am </span>
+            <span >Hi! I Am </span>
             <span>Indula Perera</span>
             <span>Frontend Developer with high level of experiance in web designing and developmenr, producting the quality work</span>
         </div>

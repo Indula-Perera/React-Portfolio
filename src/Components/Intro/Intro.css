@@ -1,6 +1,6 @@
 .intro{
     display: flex;
-    height: 77rem;
+    height: 77vh;
     margin-top: 6rem;
    
 }
@@ -85,9 +85,12 @@
 }
 
 .i-right>:nth-child(3){
+    /*height: 75%;*/
+   /* position: absolute;*/
     transform: scale(1.4);
-    left: 16.01%;
+    left: 16%;
     
+       
 }
 
 .i-right>:nth-child(4){

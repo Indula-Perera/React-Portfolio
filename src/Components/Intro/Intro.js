@@ -25,7 +25,7 @@ export default function Intro() {
         <button className="button i-button">Hire me</button>
 
         <div className="i-icons">
-            <a href="https://github.com/sunil9813"><img src={Github} alt="github" /></a>
+            <a href="https://github.com/Indula-Perera"><img src={Github} alt="github" /></a>
             <img src={LinkedIn} alt="linkdin" />
             <img src={Instergram} alt="insta" />
 

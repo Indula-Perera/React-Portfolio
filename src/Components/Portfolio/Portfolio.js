@@ -18,7 +18,7 @@ export default function Portfolio() {
         {/*Slider */}
 
         <Swiper 
-        spaceBetween={30 }
+        spaceBetween={1}
         slidesPerView={3}
         grabCursor={true}
         className='portfolio-slider'        

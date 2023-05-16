@@ -10,7 +10,7 @@ import "swiper/css";
 
 export default function Portfolio() {
   return (
-    <div className='portfolio'>
+    <div className="portfolio">
         {/*heading */}
         <span>Recent Projects</span>
         <span>Portfolio</span>
@@ -21,7 +21,7 @@ export default function Portfolio() {
         spaceBetween={1}
         slidesPerView={3}
         grabCursor={true}
-        className='portfolio-slider'        
+        className="portfolio-slider"      
       >
             
             <SwiperSlide>
@@ -30,14 +30,14 @@ export default function Portfolio() {
 
             <SwiperSlide>
                 <img src={Ecommerce} alt="" />
+            </SwiperSlide>{""}
+           
+            <SwiperSlide>
+                <img src={Musicapp} alt="" />
             </SwiperSlide>
            
             <SwiperSlide>
                 <img src={HOC} alt="" />
-            </SwiperSlide>
-           
-            <SwiperSlide>
-                <img src={Musicapp} alt="" />
             </SwiperSlide>
 
         </Swiper>

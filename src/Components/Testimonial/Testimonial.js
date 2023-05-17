@@ -1,37 +1,39 @@
 import React from "react";
 import "./Testimonial.css";
 import { Swiper, SwiperSlide } from "swiper/react";
-import profilepic1 from "../../img/profile1.jpg"
-import profilepic2 from "../../img/profile2.jpg"
-import profilepic3 from "../../img/profile3.jpg"
-import profilepic4 from "../../img/profile4.jpg"
+import profilepic1 from "../../img/profile1.jpg";
+import profilepic2 from "../../img/profile2.jpg";
+import profilepic3 from "../../img/profile3.jpg";
+import profilepic4 from "../../img/profile4.jpg";
 import { Pagination } from "swiper";
-import'swiper/css/pagination';
-import 'swiper/css'
+import "swiper/css/pagination";
+import "swiper/css";
 
 export default function Testimonial() {
-    const clients =[
-        {
-            img:profilepic1,
-            review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quasi illo inventore voluptatem ducimus, delectus aliquam nam saepe esse earum, adipisci hic ea est perspiciatis consequatur consectetur commodi! Deleniti, molestiae?",
-        },
-        {
-            img:profilepic2,
-            review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quasi illo inventore voluptatem ducimus, delectus aliquam nam saepe esse earum, adipisci hic ea est perspiciatis consequatur consectetur commodi! Deleniti, molestiae?",
-        },
-        {
-            img:profilepic3,
-            review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quasi illo inventore voluptatem ducimus, delectus aliquam nam saepe esse earum, adipisci hic ea est perspiciatis consequatur consectetur commodi! Deleniti, molestiae?",
-        },
-        {
-            img:profilepic4,
-            review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quasi illo inventore voluptatem ducimus, delectus aliquam nam saepe esse earum, adipisci hic ea est perspiciatis consequatur consectetur commodi! Deleniti, molestiae?",
-        },
-    ];
-
+  const clients = [
+    {
+      img: profilepic1,
+      review:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quasi illo inventore voluptatem ducimus, delectus aliquam nam saepe esse earum, adipisci hic ea est perspiciatis consequatur consectetur commodi! Deleniti, molestiae?",
+    },
+    {
+      img: profilepic2,
+      review:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quasi illo inventore voluptatem ducimus, delectus aliquam nam saepe esse earum, adipisci hic ea est perspiciatis consequatur consectetur commodi! Deleniti, molestiae?",
+    },
+    {
+      img: profilepic3,
+      review:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quasi illo inventore voluptatem ducimus, delectus aliquam nam saepe esse earum, adipisci hic ea est perspiciatis consequatur consectetur commodi! Deleniti, molestiae?",
+    },
+    {
+      img: profilepic4,
+      review:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quasi illo inventore voluptatem ducimus, delectus aliquam nam saepe esse earum, adipisci hic ea est perspiciatis consequatur consectetur commodi! Deleniti, molestiae?",
+    },
+  ];
 
   return (
-
     <div className="t-wrapper">
       <div className="t-heading">
         <span>Clients Always Get</span>
@@ -47,24 +49,21 @@ export default function Testimonial() {
 
       {/*slider*/}
       <Swiper
-      modules={[Pagination]}
-      slidesPerView={1}
-      pagination={{clickable:true}}
-            
+        modules={[Pagination]}
+        slidesPerView={1}
+        pagination={{ clickable: true }}
       >
-
-            {clients.map((client, index)=>{
-                return (
-                    <SwiperSlide key={index}>
-                       <div className="testimonial">
-                        <img src={client.img} alt=""/>
-                        <span>{client.review}</span>
-                        </div>
-                    </SwiperSlide> 
-                );
-            })}
-     
-     </Swiper>
+        {clients.map((client, index) => {
+          return (
+            <SwiperSlide key={index}>
+              <div className="testimonial">
+                <img src={client.img} alt="" />
+                <span>{client.review}</span>
+              </div>
+            </SwiperSlide>
+          );
+        })}
+      </Swiper>
     </div>
   );
 }

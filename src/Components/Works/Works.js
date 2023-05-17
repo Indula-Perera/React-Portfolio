@@ -24,7 +24,7 @@ export default function Works() {
           <br />
           Lorem ipsum dolor sit amet 
 
-        </span>
+        </span> 
 
         <button className="button s-button">Hire me</button>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>

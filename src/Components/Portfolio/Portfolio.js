@@ -23,7 +23,7 @@ export default function Portfolio() {
         grabCursor={true}
         className="portfolio-slider"      
       >
-            
+          
             <SwiperSlide>
                 <img src={Sidebar} alt="" />
             </SwiperSlide>
@@ -41,6 +41,6 @@ export default function Portfolio() {
             </SwiperSlide>
 
         </Swiper>
-    </div>
+    </div> 
   )
 }

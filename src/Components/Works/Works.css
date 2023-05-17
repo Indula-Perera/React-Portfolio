@@ -21,7 +21,7 @@
     box-shadow: var(--smboxShadow);
     top: 2rem;
     background: white;
-}
+} 
 
 .w-mainCircle>*{
     position: absolute;

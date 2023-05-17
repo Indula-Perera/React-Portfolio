@@ -28,7 +28,7 @@ export default function Services() {
 
       {/*right side*/}
 
-      <div className="cards">
+      <div className="cards"> 
         <div style={{ left: "24rem" }}>
           <Card
             emoji={HeartEmoji}

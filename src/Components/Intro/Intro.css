@@ -69,6 +69,7 @@
 .i-right>*{
     position: absolute;
     z-index: 1;
+    color: black;
 }
 
 .i-right>:nth-child(1){
@@ -88,7 +89,7 @@
     /*height: 75%;*/
    /* position: absolute;*/
     transform: scale(1.4);
-    left: 16%;
+    left: 25%;
     
        
 }

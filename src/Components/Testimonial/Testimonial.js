@@ -8,8 +8,13 @@ import profilepic4 from "../../img/profile4.jpg";
 import { Pagination } from "swiper";
 import "swiper/css/pagination";
 import "swiper/css";
+import { themeContext } from '../../Context'
+import { useContext } from 'react'
+
 
 export default function Testimonial() {
+  const theme = useContext(themeContext);
+    const darkMode = theme.state.darkMode;
   const clients = [
     {
       img: profilepic1,
@@ -34,15 +39,16 @@ export default function Testimonial() {
   ];
 
   return (
-    <div className="t-wrapper">
+    <div className="t-wrapper" style={{color: darkMode? 'white': ''} }>
       <div className="t-heading">
-        <span>Clients Always Get</span>
-        <span>Exceptional Work</span>
+        <span>Clients Always Get  </span>
+        <span>Exceptional Work </span>
         <span>From me..</span>
 
         <div
           className="blur t-blur1"
           style={{ background: "var(--purple)" }}
+          
         ></div>
         <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
       </div>
@@ -52,6 +58,7 @@ export default function Testimonial() {
         modules={[Pagination]}
         slidesPerView={1}
         pagination={{ clickable: true }}
+        
       >
         {clients.map((client, index) => {
           return (

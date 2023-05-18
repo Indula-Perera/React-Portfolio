@@ -5,13 +5,25 @@ import Glass from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import Card from "../Card/Card";
 import CV from "./Cv.pdf";
+import { themeContext } from '../../Context'
+import { useContext } from 'react'
+import {motion} from 'framer-motion'
+
+
+
+
+
+  
 
 export default function Services() {
+  const transition ={duration: 1, type: 'spring'}
+  const theme = useContext(themeContext);
+    const darkMode = theme.state.darkMode;
   return (
     <div className="services">
       {/*left side*/}
       <div className="awesome">
-        <span>My Aweseome</span>
+        <span style={{color: darkMode? 'white': ''} }>My Aweseome</span>
         <span>Services</span>
 
         <span>
@@ -29,29 +41,46 @@ export default function Services() {
       {/*right side*/}
 
       <div className="cards"> 
-        <div style={{ left: "24rem" }}>
+        <motion.div 
+        whileInView={{left :"23rem"}}
+        initial={{ left: "35rem" }}
+        transition={transition}
+
+        
+        style={{ left: "24rem" }}>
           <Card
             emoji={HeartEmoji}
             heading={"Design"}
             detail={" Figma,  Sketch,  Photoshop,  Adobe XD "}
           />
-        </div>
+        </motion.div>
 
         {/* Second Card */}
 
-        <div style={{ top: "12rem", left: "4rem" }}>
+        <motion.div 
+         whileInView={{left :"3rem" ,top:"12rem"}}
+         initial={{ left: "-10rem" }}
+         transition={transition}
+ 
+        
+        style={{ top: "12rem", left: "4rem" }}>
           <Card
             emoji={Glass}
             heading={"Developer"}
             detail={" Html, Css, JavaScript, React "}
           />
-        </div>
+        </motion.div>
 
         {/* 3rd Card */}
 
-        <div style={{ top: "19rem", left: "20rem" }}>
+        <motion.div 
+        whileInView={{left :"22rem" ,top:"19rem"}}
+        initial={{ left: "25rem" }}
+        transition={transition}
+        
+        style={{ top: "19rem", left: "20rem" }}>
           <Card emoji={Humble} heading={"UI/UX"} detail={"Figma, Adobe XD "} />
-        </div>
+        </motion.div>
 
         <div
           className="blur s-blur2"

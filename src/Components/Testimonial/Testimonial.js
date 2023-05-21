@@ -39,7 +39,7 @@ export default function Testimonial() {
   ];
 
   return (
-    <div className="t-wrapper" style={{color: darkMode? 'white': ''} }>
+    <div className="t-wrapper" style={{color: darkMode? 'white': ''} } id="Testimonials">
       <div className="t-heading">
         <span>Clients Always Get  </span>
         <span>Exceptional Work </span>

@@ -1,8 +1,10 @@
 import React from 'react'
-import  "./Navbar.css";
-import Toggle from '../Toggle/Toggle';
 
-export default function navbar() {
+import Toggle from '../Toggle/Toggle';
+import { Link } from "react-scroll";
+import  "./Navbar.css";
+
+export default function Navbar() {
   return (
     <div className='n-wrapper'>
         <div className="n-left">
@@ -11,16 +13,44 @@ export default function navbar() {
         </div>
 
         <div className="n-right">
-            <div className="n-list">
+            <div className="n-list" >
                 <ul>
+                    <Link spy={true} to='Navbar' smooth={true} activeClass='activeClass'>
+
                     <li>Home</li>
+                    
+                    </Link>
+
+                    <Link spy={true} to='Service' smooth={true} activeClass='activeClass'>
+                        
                     <li>Service</li>
+                    </Link>
+
+                    <Link spy={true} to='Experiance' smooth={true} activeClass='activeClass'>
+                        
                     <li>Experiance</li>
+                    
+                    </Link>
+
+                    <Link spy={true} to='Portfolio' smooth={true} activeClass='activeClass'>
+                        
                     <li>Portfolio</li>
+                    
+                    </Link>
+
+                    <Link spy={true} to='Testimonials' smooth={true} activeClass='activeClass'>
+                        
                     <li>Testimonials</li>
+                    
+                    </Link>
+
+                  
+                    
                 </ul>
             </div>
+            <Link spy={true} to='Contact' smooth={true} activeClass='activeClass'>
             <button className='button n-button'>Contact</button>
+            </Link>
         </div>
       
     </div>

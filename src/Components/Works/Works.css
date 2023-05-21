@@ -21,6 +21,8 @@
     box-shadow: var(--smboxShadow);
     top: 2rem;
     background: white;
+    /*dark mode*/
+    z-index: 2;
 } 
 
 .w-mainCircle>*{
@@ -75,11 +77,13 @@
     height: 13rem;
     width: 13rem;
     border-radius: 100%;
-    z-index: -1;
+    /*dark mode*/
+    z-index: 1;
 }
 
 .blueCircle{
     background: #1949B8;
+    color: #1949B8;
     left: 18rem;
     top: 0rem;
 
@@ -87,6 +91,34 @@
 
 .yellowCircle{
     background: #F5C32C;
+    color: #F5C32C;
     left: 18rem;
     top: 8rem;
 }
+
+
+
+
+  @media screen and (max-width: 480px) {
+    .works {
+      flex-direction: column;
+      height: 55rem;
+      padding: 0;
+      gap: 5rem;
+    }
+  
+    .w-rigth {
+      display: flex;
+      align-items: flex-start;
+      justify-content:start;
+      transform: scale(0.7);
+    }
+    .w-mainCircle{
+      position: static;
+    }
+    .w-backCircle{
+      left: 8rem!important;
+      z-index: -1;
+    }
+  
+  }

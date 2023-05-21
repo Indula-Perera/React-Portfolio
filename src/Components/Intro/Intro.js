@@ -40,7 +40,7 @@ export default function Intro() {
         </div>
       </div>
 
-      <div className="i-right">
+      <div className="i-right " >
 
         <img src={Vector1} alt="vector1" />
         <img src={Vector2} alt="Vector2" />
@@ -57,7 +57,9 @@ export default function Intro() {
          whileInView={{left :"68%"}}
          transition={transition}
         
-        style={{top:'-4%', left:'68%'}}>
+        style={{top:'-4%', left:'68%'}}
+        className='floating-div'
+        >
 
         <FloatingDiv image={Crown} text1='Web' text2='Developer' />
         
@@ -68,7 +70,10 @@ export default function Intro() {
          whileInView={{left :"0rem"}}
          transition={transition}
 
-        style={{top:'18rem', left:'0rem'}}>
+        style={{top:'18rem', left:'0rem'}}
+        className='floating-div'
+        
+        >
 
           <FloatingDiv image={thumbup} text1='Best Desing' text2='Award'/>
 

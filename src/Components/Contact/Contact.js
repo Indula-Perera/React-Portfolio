@@ -27,11 +27,12 @@ export default function Contact() {
         }
       );
   };
+
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
 
   return (
-    <div className="contact-form">
+    <div className="contact-form" id="Contact">
       <div className="w-left">
         <div className="awesome">
           <span style={{color: darkMode? 'white': ''} } >Get In Touch</span>
@@ -63,6 +64,7 @@ export default function Contact() {
           <div
             className="blur c-blur1"
             style={{ background: "var(--purple)" }}
+            
           ></div>
         </form>
       </div>

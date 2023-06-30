@@ -1,7 +1,7 @@
 import React from 'react'
 import'./Portfolio.css'
 import {Swiper, SwiperSlide} from "swiper/react";
-import Sidebar from "../../img/sidebar.png";
+import Portfolioimg from "../../img/Portfolio.png";
 import Ecommerce from "../../img/ecommerce.png";
 import HOC from "../../img/hoc.png";
 import Musicapp from "../../img/musicapp.png";
@@ -38,7 +38,7 @@ export default function Portfolio() {
       >
           
             <SwiperSlide>
-                <img src={Sidebar} alt="" />
+                <img src={Portfolioimg} alt="" />
             </SwiperSlide>
 
             <SwiperSlide>

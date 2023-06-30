@@ -33,9 +33,9 @@ export default function Intro() {
         <button className="button i-button">Hire me</button>
 
         <div className="i-icons">
-            <a href="https://github.com/Indula-Perera"><img src={Github} alt="github" /></a>
-            <img src={LinkedIn} alt="linkdin" />
-            <img src={Instergram} alt="insta" />
+            <a href="https://github.com/Indula-Perera" target='blank'><img src={Github} alt="github" /></a>
+            <a href='www.linkedin.com/in/indula-perera' target='blank'><img src={LinkedIn} alt="linkdin" /></a>
+            <a href='https://www.instagram.com/_i_n_d_u_l_a_/' target='blank'><img src={Instergram} alt="insta" /></a>
 
         </div>
       </div>

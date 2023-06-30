@@ -38,11 +38,11 @@ export default function Navbar() {
                     
                     </Link>
 
-                    <Link spy={true} to='Testimonials' smooth={true} activeClass='activeClass'>
+                   {/* <Link spy={true} to='Testimonials' smooth={true} activeClass='activeClass'>
                         
                     <li>Testimonials</li>
                     
-                    </Link>
+                    </Link>*/}
 
                   
                     

@@ -23,8 +23,8 @@ export default function Services() {
     <div className="services" id="Service">
       {/*left side*/}
       <div className="awesome">
-        <span style={{color: darkMode? 'white': ''} }>My Aweseome</span>
-        <span>Services</span>
+        <span style={{color: darkMode? 'white': ''} }>I Like To Work With</span>
+        <span>These Areas </span>
 
         <span>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,

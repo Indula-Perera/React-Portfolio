@@ -1,10 +1,10 @@
 import React from "react";
 import "./Works.css";
-import Upwork from "../../img/Upwork.png";
-import Fiverr from "../../img/fiverr.png";
-import Amazon from "../../img/amazon.png";
-import Shopify from "../../img/Shopify.png";
-import Facebook from "../../img/Facebook.png";
+import Html from "../../img/html.png";
+import React1 from "../../img/react.png";
+import Js from "../../img/js.png";
+import Css from "../../img/css.png";
+import Php from "../../img/php.png";
 import { themeContext } from "../../Context";
 import { useContext } from "react";
 import { motion } from "framer-motion";
@@ -20,7 +20,7 @@ export default function Works() {
         <span style={{ color: darkMode ? "white" : "" }}>
           Works For All These
         </span>
-        <span>Brands & Clients</span>
+        <span>Languages</span>
 
         <span>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
@@ -32,7 +32,7 @@ export default function Works() {
           Lorem ipsum dolor sit amet
         </span>
 
-        <button className="button s-button">Hire me</button>
+      { /* <button className="button s-button">Hire me</button>*/}
 
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
@@ -48,23 +48,23 @@ export default function Works() {
           className="w-mainCircle"
         >
           <div className="w-secCircle">
-            <img src={Upwork} alt="" />
+            <img src={Html} alt="" />
           </div>
 
           <div className="w-secCircle">
-            <img src={Fiverr} alt="" />
+            <img src={React1} alt="" />
           </div>
 
           <div className="w-secCircle">
-            <img src={Amazon} alt="" />
+            <img src={Js} alt="" />
           </div>
 
           <div className="w-secCircle">
-            <img src={Shopify} alt="" />
+            <img src={Css} alt="" />
           </div>
 
           <div className="w-secCircle">
-            <img src={Facebook} alt="" />
+            <img src={Php} alt="" />
           </div>
         </motion.div>
 <div>

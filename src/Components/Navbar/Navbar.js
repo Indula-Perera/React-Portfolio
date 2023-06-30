@@ -26,9 +26,9 @@ export default function Navbar() {
                     <li>Service</li>
                     </Link>
 
-                    <Link spy={true} to='Experiance' smooth={true} activeClass='activeClass'>
+                    <Link spy={true} to='Works' smooth={true} activeClass='activeClass'>
                         
-                    <li>Experiance</li>
+                    <li>Languages</li>
                     
                     </Link>
 

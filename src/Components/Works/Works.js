@@ -14,7 +14,7 @@ export default function Works() {
   const darkMode = theme.state.darkMode;
 
   return (
-    <div className="works">
+    <div className="works" id="Works">
       {/*left side*/}
       <div className="awesome">
         <span style={{ color: darkMode ? "white" : "" }}>

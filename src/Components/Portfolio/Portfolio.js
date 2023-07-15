@@ -2,9 +2,9 @@ import React from 'react'
 import'./Portfolio.css'
 import {Swiper, SwiperSlide} from "swiper/react";
 import Portfolioimg from "../../img/Portfolio.png";
-import Ecommerce from "../../img/ecommerce.png";
+import Zara from "../../img/zara.png";
 import HOC from "../../img/hoc.png";
-import Musicapp from "../../img/musicapp.png";
+import AdminDash from "../../img/AdminDash.png";
 import "swiper/css";
 import { themeContext } from '../../Context'
 import { useContext } from 'react'
@@ -42,11 +42,11 @@ export default function Portfolio() {
             </SwiperSlide>
 
             <SwiperSlide>
-                <img src={Ecommerce} alt="" />
+                <img src={Zara} alt="" />
             </SwiperSlide>{""}
            
             <SwiperSlide>
-                <img src={Musicapp} alt="" />
+                <img src={AdminDash} alt="" />
             </SwiperSlide>
            
             <SwiperSlide>

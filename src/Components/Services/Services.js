@@ -23,13 +23,12 @@ export default function Services() {
     <div className="services" id="Service">
       {/*left side*/}
       <div className="awesome">
-        <span style={{color: darkMode? 'white': ''} }>I Like To Work With</span>
+        <span style={{color: darkMode? 'white': ''} }>I Like To Work in</span>
         <span>These Areas </span>
 
         <span>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
-          <br />
-          Lorem ipsum dolor sit amet, consectetur.
+        Design, develop, and maintain software applications and systems, <br/>applying programming expertise to solve complex problems and <br/>improve software performance and its functionalities.
+
         </span>
         
         <a href={CV} download>

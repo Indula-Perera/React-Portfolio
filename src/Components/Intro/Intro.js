@@ -26,9 +26,9 @@ export default function Intro() {
     <div className='intro'>
       <div className="i-left">
         <div className="i-name">
-            <span style={{color: darkMode? 'white': ''} } >Hi! I Am </span>
+            <span style={{color: darkMode? 'white': ''} } >Hey ! I Am </span>
             <span>Indula Perera</span>
-            <span>Frontend Developer with high level of experiance in web designing and developmenr, producting the quality work</span>
+            <span>I am an individual who is passionate in creating impactful software <br/> solutions to solve complex problems.</span>
         </div>
         <button className="button i-button">Hire me</button>
 
@@ -75,7 +75,7 @@ export default function Intro() {
         
         >
 
-          <FloatingDiv image={thumbup} text1='Best Desing' text2='Award'/>
+          <FloatingDiv image={thumbup} text1='Best' text2='Designer'/>
 
         </motion.div>
         {/*blur divs*/}

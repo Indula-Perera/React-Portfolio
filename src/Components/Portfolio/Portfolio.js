@@ -1,59 +1,48 @@
-import React from 'react'
-import'./Portfolio.css'
-import {Swiper, SwiperSlide} from "swiper/react";
+import React from "react";
+import "./Portfolio.css";
+import { Swiper, SwiperSlide } from "swiper/react";
 import Portfolioimg from "../../img/Portfolio.png";
 import Zara from "../../img/zara.png";
 import HOC from "../../img/hoc.png";
 import AdminDash from "../../img/AdminDash.png";
 import "swiper/css";
-import { themeContext } from '../../Context'
-import { useContext } from 'react'
-
-
-
-
-
-  
-
-
-  
-
+import { themeContext } from "../../Context";
+import { useContext } from "react";
 
 export default function Portfolio() {
-    const theme = useContext(themeContext);
-    const darkMode = theme.state.darkMode;
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
   return (
-    <div className="portfolio" id='Portfolio'>
-        {/*heading */}
-        <span style={{color: darkMode? 'white': ''} }>Recent Projects</span>
-        <span>Portfolio</span>
+    <div className="portfolio" id="Portfolio">
+      {/*heading */}
+      <span style={{ color: darkMode ? "white" : "" }}>Recent Projects</span>
+      <span>Portfolio</span>
 
-        {/*Slider */}
+      {/*Slider */}
 
-        <Swiper 
+      <Swiper
         spaceBetween={1}
         slidesPerView={3}
         grabCursor={true}
-        className="portfolio-slider"      
+        className="portfolio-slider"
       >
-          
-            <SwiperSlide>
-                <img src={Portfolioimg} alt="" />
-            </SwiperSlide>
+        <SwiperSlide>
+          <img src={Portfolioimg} alt="" />
+        </SwiperSlide>
 
-            <SwiperSlide>
-                <img src={Zara} alt="" />
-            </SwiperSlide>{""}
-           
-            <SwiperSlide>
-                <img src={AdminDash} alt="" />
-            </SwiperSlide>
-           
-            <SwiperSlide>
-                <img src={HOC} alt="" />
-            </SwiperSlide>
+        <SwiperSlide>
+          <img src={Zara} alt="" />
+        </SwiperSlide>
+        {""}
 
-        </Swiper>
-    </div> 
-  )
+        <SwiperSlide>
+          <img src={AdminDash} alt="" />
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <img src={HOC} alt="" />
+        </SwiperSlide>
+      </Swiper>
+    </div>
+  );
 }

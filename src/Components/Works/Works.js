@@ -23,11 +23,9 @@ export default function Works() {
         <span>Languages</span>
 
         <span>
-          Html, Css
+          Html, Css, React,
           <br />
-          React
-          <br />
-          JavaScript
+          JavaScript,
           <br />
           Php
         </span>

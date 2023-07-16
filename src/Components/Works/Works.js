@@ -23,13 +23,13 @@ export default function Works() {
         <span>Languages</span>
 
         <span>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
+          Html, Css
           <br />
-          Lorem ipsum dolor sit amet, consectetur.
+          React
           <br />
-          Lorem ipsum dolor sit amet consectetur adipisicing
+          JavaScript
           <br />
-          Lorem ipsum dolor sit amet
+          Php
         </span>
 
         {/* <button className="button s-button">Hire me</button>*/}

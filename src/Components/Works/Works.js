@@ -32,7 +32,7 @@ export default function Works() {
           Lorem ipsum dolor sit amet
         </span>
 
-      { /* <button className="button s-button">Hire me</button>*/}
+        {/* <button className="button s-button">Hire me</button>*/}
 
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
@@ -67,10 +67,10 @@ export default function Works() {
             <img src={Php} alt="" />
           </div>
         </motion.div>
-<div>
-        <div className="w-backCircle blueCircle"></div>
-        <div className="w-backCircle yellowCircle"></div>
-      </div>
+        <div>
+          <div className="w-backCircle blueCircle"></div>
+          <div className="w-backCircle yellowCircle"></div>
+        </div>
       </div>
     </div>
   );

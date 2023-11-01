@@ -66,7 +66,7 @@ Check out the live version of my portfolio [here](https://your-portfolio-url.com
 Include screenshots or GIFs of your portfolio to give viewers a glimpse of the design and functionality.
 
 **intro**
-![Screenshot 2023-11-01 115226](https://github.com/Indula-Perera/Portfolio/assets/105506303/bcc730fb-d3b1-40b9-bbaa-801b195b7308)
+![Screenshot 2023-11-01 115924](https://github.com/Indula-Perera/Portfolio/assets/105506303/08f68fc5-2a6e-4136-954a-d01bfce09883)
 
 **Skils**
 ![Screenshot 2023-11-01 115240](https://github.com/Indula-Perera/Portfolio/assets/105506303/4ada2bdf-4ad7-4e85-8548-b3b6a46ef8b8)

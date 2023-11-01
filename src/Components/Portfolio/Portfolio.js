@@ -31,7 +31,7 @@ export default function Portfolio() {
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={Zara} alt="" />
+       <a href="https://github.com/Indula-Perera/Full-Functional-PHP-e-commerce-website-HD-Final-Project.git">   <img src={Zara} alt="" /> </a>
         </SwiperSlide>
         {""}
 
@@ -40,7 +40,7 @@ export default function Portfolio() {
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={HOC} alt="" />
+         <a href="https://github.com/Indula-Perera/React-Blog-App-With-Malicious-URL-Detection.git"> <img src={HOC} alt="" /></a>
         </SwiperSlide>
       </Swiper>
     </div>

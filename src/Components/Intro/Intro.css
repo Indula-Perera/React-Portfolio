@@ -115,11 +115,7 @@
     left: 56%;
     filter: blur(72px);
 }
-.awesome-s{
-    line-height: 21px;
-    text-align: justify;
-    
-}
+
 @media screen and (max-width: 480px) {
     .intro {
       flex-direction: column;
@@ -139,7 +135,7 @@
       top: -7rem !important;;
     }
     .i-right>:nth-child(3){
-        top: 0;
+        top: 1rem;
         left: 27%;
     }
 

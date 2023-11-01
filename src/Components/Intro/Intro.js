@@ -75,7 +75,7 @@ export default function Intro() {
           style={{ top: "18rem", left: "0rem" }}
           className="floating-div"
         >
-          <FloatingDiv image={thumbup} text1="Best" text2="Designer" />
+          <FloatingDiv image={thumbup} text1="Photographer" text2="& Designer" />
         </motion.div>
         {/*blur divs*/}
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>

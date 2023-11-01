@@ -25,7 +25,7 @@ export default function Intro() {
         <div className="i-name">
           <span style={{ color: darkMode ? "white" : "" }}>Hey ! I Am </span>
           <span>Indula Perera</span>
-          <span>
+          <span className="awesome-s">
           I am a dedicated individual with a profound passion for crafting impactful websites that address complex challenges. 
           Through my work, I strive to create web solutions that not only meet the needs of users but also leave a lasting impact. 
           Welcome to my portfolio, where you'll find a collection of projects that reflect my commitment to making a difference through web development.

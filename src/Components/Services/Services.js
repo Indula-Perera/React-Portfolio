@@ -22,10 +22,10 @@ export default function Services() {
         </span>
         <span>These Areas </span>
 
-        <span>
+        <span className="awesome-s">
         I excel in designing, developing, and maintaining software systems, <br/>
         utilizing my programming skills to address complex challenges and <br/>enhance software performance and functionality. 
-        <br/> My expertise lies in turning intricate problems into <br/> efficient, user-friendly solutions, ensuring high-quality outcomes.
+        My expertise lies <br/>in turning intricate problems into efficient, user-friendly solutions,<br/> ensuring high-quality outcomes.
         </span>
 
         <a href={CV} download>

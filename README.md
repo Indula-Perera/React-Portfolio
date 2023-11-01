@@ -66,25 +66,26 @@ Check out the live version of my portfolio [here](https://your-portfolio-url.com
 Include screenshots or GIFs of your portfolio to give viewers a glimpse of the design and functionality.
 
 **intro**
-![Screenshot 2023-11-01 115924](https://github.com/Indula-Perera/Portfolio/assets/105506303/08f68fc5-2a6e-4136-954a-d01bfce09883)
+![Screenshot 2023-11-01 115924](https://github.com/Indula-Perera/React-Portfolio/assets/105506303/dbfa428b-d79e-4ca8-b8c6-4b329dec33f1)
+
 
 **Skils**
-![Screenshot 2023-11-01 115240](https://github.com/Indula-Perera/Portfolio/assets/105506303/4ada2bdf-4ad7-4e85-8548-b3b6a46ef8b8)
+![Screenshot 2023-11-01 115240](https://github.com/Indula-Perera/React-Portfolio/assets/105506303/f3135aaa-c842-4cee-a021-a7cb98fd479e)
+
 
 **Work with**
-![Screenshot 2023-11-01 115256](https://github.com/Indula-Perera/Portfolio/assets/105506303/d4f1bfa9-3451-4bfe-bc76-f07bbe8aa554)
+![Screenshot 2023-11-01 115256](https://github.com/Indula-Perera/React-Portfolio/assets/105506303/80a1b540-2715-42b9-a47a-98bd8acfcc38)
+
 
 **Recent Projects**
-![Screenshot 2023-11-01 115312](https://github.com/Indula-Perera/Portfolio/assets/105506303/a4d782df-7a21-47af-a388-d729a3929368)
+![Screenshot 2023-11-01 115312](https://github.com/Indula-Perera/React-Portfolio/assets/105506303/5e4fc437-f84f-4a59-b599-54962d08b208)
+
 
 **Contact**
-![Screenshot 2023-11-01 115324](https://github.com/Indula-Perera/Portfolio/assets/105506303/9df76af5-815b-49d4-bc52-a045c68f3ab5)
+![Screenshot 2023-11-01 115324](https://github.com/Indula-Perera/React-Portfolio/assets/105506303/a925420b-f474-4061-899e-33134f1b280c)
+
 
 
 
 
 Thank you for visiting my portfolio!
-```
-
-
-

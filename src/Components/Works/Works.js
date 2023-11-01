@@ -22,12 +22,12 @@ export default function Works() {
         </span>
         <span>Languages</span>
 
-        <span>
-          Html, Css, React,
-          <br />
-          JavaScript,
-          <br />
-          Php
+        <span className="awesome-s">
+        I'm proficient in React, Next.js, PHP, MongoDB, MySQL, HTML, <br />CSS, and Tailwind CSS. 
+          
+        These skills enable me to create dynamic<br /> web applications, robust server-side solutions, and stylish <br />user interfaces. 
+          
+        Explore my portfolio to see projects that <br />showcase my expertise. Let's discuss collaboration opportunities!
         </span>
 
         {/* <button className="button s-button">Hire me</button>*/}

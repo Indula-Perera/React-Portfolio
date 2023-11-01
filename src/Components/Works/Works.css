@@ -11,7 +11,11 @@
 .w-rigth{
     position: relative;
 }
-
+.awesome-s{
+    line-height: 21px;
+    text-align: justify;
+    
+}
 .w-mainCircle{
     left: 9rem;
     position: relative;

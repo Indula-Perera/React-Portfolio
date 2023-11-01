@@ -36,7 +36,7 @@ export default function Portfolio() {
         {""}
 
         <SwiperSlide>
-          <img src={AdminDash} alt="" />
+          <a href="https://github.com/Indula-Perera/React-Admin-Dashboard.git" target="_blank"> <img src={AdminDash} alt="" /> </a>
         </SwiperSlide>
 
         <SwiperSlide>

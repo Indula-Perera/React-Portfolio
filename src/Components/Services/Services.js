@@ -23,10 +23,9 @@ export default function Services() {
         <span>These Areas </span>
 
         <span>
-          Design, develop, and maintain software applications and systems,{" "}
-          <br />
-          applying programming expertise to solve complex problems and <br />
-          improve software performance and its functionalities.
+        I excel in designing, developing, and maintaining software systems, <br/>
+        utilizing my programming skills to address complex challenges and <br/>enhance software performance and functionality. 
+        <br/> My expertise lies in turning intricate problems into <br/> efficient, user-friendly solutions, ensuring high-quality outcomes.
         </span>
 
         <a href={CV} download>

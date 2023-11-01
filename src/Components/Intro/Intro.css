@@ -86,7 +86,7 @@
 }
 
 .i-right>:nth-child(3){
-    height: 75%;
+    height: 67%;
     position: absolute;
     transform: scale(1.4);
     left: 20%;

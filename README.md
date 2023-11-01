@@ -86,6 +86,5 @@ Include screenshots or GIFs of your portfolio to give viewers a glimpse of the d
 Thank you for visiting my portfolio!
 ```
 
-Replace `[yourusername]`, `[your-portfolio-url.com]`, `[License Name]`, and other placeholders with your own information. Customize the project list with your projects, descriptions, and links. Additionally, include any additional sections or details that are relevant to your portfolio.
 
 

@@ -6,9 +6,6 @@
 
 Welcome to my personal portfolio built with React! This repository serves as a showcase of my projects and skills. 
 
-## Live Demo
-
-Check out the live version of my portfolio [here](https://your-portfolio-url.com).
 
 ## Features
 
@@ -35,7 +32,7 @@ Check out the live version of my portfolio [here](https://your-portfolio-url.com
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/react-portfolio.git
+   gh repo clone Indula-Perera/React-Portfolio  
    ```
 
 2. Install dependencies:
